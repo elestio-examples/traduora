@@ -17,3 +17,5 @@ curl http://$target/api/v1/auth/signup \
   -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36' \
   --data-raw '{"name":"root","email":"'"${ADMIN_EMAIL}"'","password":"'"${ADMIN_PASSWORD}"'"}' \
   --compressed
+
+  echo "Install finished"

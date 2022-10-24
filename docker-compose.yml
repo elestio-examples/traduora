@@ -15,6 +15,13 @@ services:
       NODE_ENV: "production"
       TR_SECRET: ${TR_SECRET}    
       TR_VIRTUAL_HOST: ${TR_VIRTUAL_HOST}
+      TR_MAIL_SENDER: ${TR_MAIL_SENDER}
+      TR_MAIL_HOST: ${TR_MAIL_HOST}
+      TR_MAIL_PORT: ${TR_MAIL_PORT}
+      TR_MAIL_SECURE: ${TR_MAIL_SECURE}
+      TR_MAIL_REJECT_SELF_SIGNED: ${TR_MAIL_REJECT_SELF_SIGNED}
+      TR_MAIL_USER: ${TR_MAIL_USER}
+      TR_MAIL_PASSWORD: ${TR_MAIL_PASSWORD}
     restart: always
     depends_on:
       - mysqldb
