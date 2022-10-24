@@ -18,7 +18,7 @@ environments:
     value: "https://[CI_CD_DOMAIN]"
   - key: "TR_MAIL_SENDER"
     value: "[DOMAIN]@vm.elestio.app"
-  - key: "TR_MAIL_HOST	"
+  - key: "TR_MAIL_HOST"
     value: "172.17.0.1"
   - key: "TR_MAIL_PORT"
     value: "25"
