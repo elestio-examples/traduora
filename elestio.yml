@@ -16,8 +16,6 @@ environments:
     value: "random_password"
   - key: "TR_VIRTUAL_HOST"
     value: "https://[CI_CD_DOMAIN]"
-  - key: "TR_DB_PASSWORD"
-    value: "random_password"
 
 config:
   runTime: "dockerCompose"

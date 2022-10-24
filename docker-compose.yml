@@ -8,7 +8,7 @@ services:
      - "172.17.0.1:9090:8080"
     environment:
       TR_DB_USER: tr
-      TR_DB_PASSWORD: ${TR_DB_PASSWORD}
+      TR_DB_PASSWORD: change_me
       TR_DB_DATABASE: tr_dev
       TR_DB_HOST: mysqldb
       TR_DB_PORT: 3306
