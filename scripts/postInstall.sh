@@ -15,5 +15,5 @@ curl http://$target/api/v1/auth/signup \
   -H 'accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,he;q=0.6' \
   -H 'content-type: application/json' \
   -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36' \
-  --data-raw '{"name":"root","email":"test2@test.com","password":"yuyuyuyu"}' \
+  --data-raw '{"name":"root","email":"'"${ADMIN_EMAIL}"'","password":"'"${ADMIN_PASSWORD}"'"}' \
   --compressed
