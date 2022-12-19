@@ -30,7 +30,14 @@ environments:
     value: ""
   - key: "TR_MAIL_PASSWORD"
     value: ""
-
+  - key: "TR_SIGNUPS_ENABLED"
+    value: "true"
+  - key: "TR_MAX_PROJECTS_PER_USER"
+    value: 100
+  - key: "TR_DEFAULT_PROJECT_PLAN"
+    value: open-source
+  - key: "TR_DB_AUTOMIGRATE"
+    value: "true"
 config:
   runTime: "dockerCompose"
   version: ""
