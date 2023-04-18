@@ -10,7 +10,7 @@ Deploy Traduora server with CI/CD on Elestio
 
 # Once deployed ...
 
-You can can open Traduora UI here:
+You can open Traduora UI here:
 
     URL: https://[CI_CD_DOMAIN]
     Login: [ADMIN_EMAIL]
