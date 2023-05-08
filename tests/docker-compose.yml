@@ -35,3 +35,5 @@ services:
       MYSQL_PASSWORD: ${ADMIN_PASSWORD}
       MYSQL_ROOT_PASSWORD: root
       MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
+    volumes:
+      - ./db:/var/lib/mysql
