@@ -22,9 +22,9 @@ Find us at:
 
 [Traduora](https://traduora.co/) offers translation management system for enterprises and language service providers to automate their translation workflows.
 
-[![deploy](./deploy-on-elestio.png)](https://dash.elest.io/deploy?source=cicd&social=dockerCompose&url=https://github.com/elestio-examples/traduora)
+[![deploy](https://github.com/elestio-examples/traduora/raw/main/deploy-on-elestio.png)](https://dash.elest.io/deploy?source=cicd&social=dockerCompose&url=https://github.com/elestio-examples/traduora)
 
-[![traduora](./traduora.png)](https://www.audacityteam.org/)
+[![traduora](https://github.com/elestio-examples/traduora/raw/main/traduora.png)](https://www.audacityteam.org/)
 
 # Usage
 
@@ -44,7 +44,7 @@ Run the project with the following command
 
     docker-compose up -d
 
-You can access the Web UI at: `your-domain:9090`
+You can access the Web UI at: `http://your-domain:9090`
 
 ## Docker-compose
 
