@@ -1,4 +1,6 @@
-[![elest.io](https://elest.io/images/elestio.svg)](https://elest.io)
+<a href="https://elest.io">
+  <img src="https://elest.io/images/elestio.svg" alt="elest.io" width="400" height="200">
+</a>
 
 [![Blog](https://img.shields.io/static/v1.svg?color=f78A38&labelColor=083468&logoColor=ffffff&style=for-the-badge&label=elest.io&message=Blog)](https://blog.elest.io "Latest news about elestio, open source software, and DevOps techniques.")
 [![Discord](https://img.shields.io/static/v1.svg?logo=discord&color=f78A38&labelColor=083468&logoColor=ffffff&style=for-the-badge&label=elest.io&message=Discord)](https://discord.gg/4T4JGaMYrD "Get instant assistance and engage in live discussions with both the community and team through our chat feature.")
@@ -24,7 +26,7 @@ Find us at:
 
 [![deploy](https://github.com/elestio-examples/traduora/raw/main/deploy-on-elestio.png)](https://dash.elest.io/deploy?source=cicd&social=dockerCompose&url=https://github.com/elestio-examples/traduora)
 
-[![traduora](https://github.com/elestio-examples/traduora/raw/main/traduora.png)](https://www.audacityteam.org/)
+<img src="https://github.com/elestio-examples/traduora/raw/main/traduora.png" alt="traduora" width="800" height="400">
 
 # Usage
 
