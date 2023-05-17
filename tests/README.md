@@ -8,21 +8,21 @@
 
 # Traduora, verified and packaged by Elestio
 
-[Traduora](https://traduora.co/) offers translation management system for enterprises and language service providers to automate their translation workflows.
+Import and export the most common formats, work together with your team, instantly deliver translation updates over the air, and more!
+
+[Traduora](https://traduora.co/) is the perfect home for managing your translation workflow.
 
 <img src="https://github.com/elestio-examples/traduora/raw/main/traduora.png" alt="traduora" width="800">
 
 [![deploy](https://github.com/elestio-examples/traduora/raw/main/deploy-on-elestio.png)](https://dash.elest.io/deploy?source=cicd&social=dockerCompose&url=https://github.com/elestio-examples/traduora)
 
-You might want to deploy Traduora on elest.io if you want automated backups, reverse proxy with SSL termination, DOS protection, firewall, automated OS & Software updates, and a team of Linux experts and open source enthusiasts to ensure your services are always safe, and functional.
+Deploy a <a target="_blank" href="https://elest.io/open-source/traduora">fully managed Traduora</a> on <a target="_blank" href="https://elest.io/">elest.io</a> if you want automated backups, reverse proxy with SSL termination, firewall, automated OS & Software updates, and a team of Linux experts and open source enthusiasts to ensure your services are always safe, and functional.
 
 # Why use Elestio images?
 
 - Elestio stays in sync with updates from the original source and quickly releases new versions of this image through our automated processes.
 - Elestio images provide timely access to the most recent bug fixes and features.
-- We regularly publishes container images that contain the most current distribution packages, ensuring that users have access to the latest versions of their software..
 - Our team performs quality control checks to ensure the products we release meet our high standards.
-- We take steps to ensure that all updates and changes are thoroughly tested and verified so as not to cause any issues or disruptions for our users.
 
 # Usage
 
@@ -112,23 +112,11 @@ Here are some example snippets to help you get started creating a container.
 
 The Elestio Traduora Docker image sends the container logs to stdout. To view the logs, you can use the following command:
 
-    docker logs traduora
+    docker-compose logs -f
 
-Alternatively, if you are using Docker Compose, you can use this command:
+To stop the stack you can use the following command:
 
-    docker-compose logs -f traduora
-
-If you prefer to consume the container logs differently, you can configure the logging driver using the `--log-driver` option. By default, Docker uses the json-file driver.
-
-To stop a Docker container on Windows or Mac using the command line, you can use the following command:
-
-    docker stop [container-name]
-
-Replace [container-name] with the name or ID of the container you want to stop.
-
-To avoid using Ctrl+C on Windows or Mac to stop a container when running it in the foreground, you can use the following command instead:
-
-    docker stop $(docker ps -q --filter ancestor=[image-name])
+    docker-compose down
 
 ## Backup and Restore with Docker Compose
 
