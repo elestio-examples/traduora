@@ -14,9 +14,9 @@ Import and export the most common formats, work together with your team, instant
 
 <img src="https://github.com/elestio-examples/traduora/raw/main/traduora.png" alt="traduora" width="800">
 
-[![deploy](https://github.com/elestio-examples/traduora/raw/main/deploy-on-elestio.png)](https://dash.elest.io/deploy?source=cicd&social=dockerCompose&url=https://github.com/elestio-examples/traduora)
-
 Deploy a <a target="_blank" href="https://elest.io/open-source/traduora">fully managed Traduora</a> on <a target="_blank" href="https://elest.io/">elest.io</a> if you want automated backups, reverse proxy with SSL termination, firewall, automated OS & Software updates, and a team of Linux experts and open source enthusiasts to ensure your services are always safe, and functional.
+
+[![deploy](https://github.com/elestio-examples/traduora/raw/main/deploy-on-elestio.png)](https://dash.elest.io/deploy?source=cicd&social=dockerCompose&url=https://github.com/elestio-examples/traduora)
 
 # Why use Elestio images?
 
