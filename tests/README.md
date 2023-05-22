@@ -145,4 +145,4 @@ That's it! With these simple steps, you can easily backup and restore your data 
 
 - <a target="_blank" href="https://github.com/ever-co/ever-traduora">Traduora Github repository</a>
 
-- <a target="_blank" href="https://docs.traduora.co/docs/getting-started">Elestio/traduora Github repository</a>
+- <a target="_blank" href="https://github.com/elestio-examples/traduora">Elestio/traduora Github repository</a>
