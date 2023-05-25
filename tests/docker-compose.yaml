@@ -1,7 +1,6 @@
-version: '3.7'
+version: "3.3"
 
 services:
-
   traduora:
     image: elestio4test/traduora:latest
     ports:
@@ -13,7 +12,7 @@ services:
       TR_DB_HOST: mysqldb
       TR_DB_PORT: 3306
       NODE_ENV: "production"
-      TR_SECRET: ${TR_SECRET}    
+      TR_SECRET: ${TR_SECRET}
       TR_VIRTUAL_HOST: ${TR_VIRTUAL_HOST}
       TR_MAIL_SENDER: ${TR_MAIL_SENDER}
       TR_MAIL_HOST: ${TR_MAIL_HOST}
@@ -34,6 +33,6 @@ services:
       MYSQL_USER: tr
       MYSQL_PASSWORD: ${ADMIN_PASSWORD}
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
+      MYSQL_ALLOW_EMPTY_PASSWORD: "true"
     volumes:
       - ./db:/var/lib/mysql
